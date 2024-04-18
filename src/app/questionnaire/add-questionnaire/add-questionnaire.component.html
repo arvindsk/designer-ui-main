@@ -1,0 +1,27 @@
+
+<mat-drawer-container class="add-questionnaire-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+
+    <div>
+      <div class="row">
+        <div>
+some content
+        </div>
+        <div>
+
+        </div>
+
+      </div>
+    </div>
+  </mat-drawer>
+
+  <div class="add-questionnaire-main-content">
+    <div style="margin-left: -5px">
+      <button type="button" mat-button (click)="drawer.toggle()">
+        <mat-icon>chevron_left</mat-icon>
+      </button>
+    </div>
+
+    some content
+  </div>
+</mat-drawer-container>
